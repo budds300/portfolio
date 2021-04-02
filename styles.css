@@ -95,7 +95,7 @@ nav>ul>li>a:hover {
         
 }
 .text{
-        width:40%;
+        width:50%;
         margin:auto;
 }
     /* Projects */
@@ -103,4 +103,22 @@ nav>ul>li>a:hover {
    #projects h1{
     text-align:center
 }
-@media only screen 
+.project1{
+    margin:auto;
+    width:60%;
+    text-align: center
+}
+.project2{
+    margin:auto;
+    width:60%;
+    text-align: center
+}
+.project3{
+    margin:auto;
+    width:60%;
+    text-align: center
+}
+.project-text p {
+    margin:auto;
+    width:90%;
+}
