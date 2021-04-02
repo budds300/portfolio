@@ -47,12 +47,12 @@ nav>ul>li>a {
     display: inline;
     color:white;
     text-align: right;
-    }
+}
 nav>ul>li>a:hover {
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1),inset  0 0 1px rgba(255, 255, 255, 0.6);
-        background-color:white;
-        color:#19D9fd ;
-    }
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1),inset  0 0 1px rgba(255, 255, 255, 0.6);
+     background-color:white;
+     color:#19D9fd ;
+}
     /* landing */
 #landing{
     width: 70%;
@@ -61,12 +61,12 @@ nav>ul>li>a:hover {
  #landing h1{
         color: white;
         padding: 21rem 0 0 0 ;
-    }
-  #landing input[type=button]:hover{
+ }
+ #landing input[type=button]:hover{
         background-color:white;
         color:#19D9fd ;
-    }
-    #landing input[type=button] {
+ }
+#landing input[type=button] {
         background-color: #00B2ff;
         color: white;
         padding: 12px 20px;
@@ -74,22 +74,33 @@ nav>ul>li>a:hover {
         cursor: pointer;
         margin:auto;
         position: relative;
-    }
+}
     /* About me */
-    .about1{
+ .about1{
         margin:auto;
         width:70%;
-    }
-    #about h1 {
+ }
+#about h1 {
         text-align: center
-    }
-    .flex{
+}
+#about img{
+        border: 20px solid white ;
+         box-shadow: 2px 2px 5px grey; 
+}
+.flex{
         display: flex;
         flex-direction: row;
-        justify-content:center;
+        justify-content:space-evenly;
+
         
-    }
-    .text{
+}
+.text{
         width:40%;
         margin:auto;
-    }
+}
+    /* Projects */
+
+   #projects h1{
+    text-align:center
+}
+@media only screen 
