@@ -76,10 +76,8 @@ nav>ul>li>a:hover {
         position: relative;
 }
     /* About me */
- .about1{
-        margin:auto;
-        width:70%;
- }
+ 
+ 
 #about h1 {
         text-align: center
 }
@@ -103,22 +101,60 @@ nav>ul>li>a:hover {
    #projects h1{
     text-align:center
 }
-.project1{
-    margin:auto;
-    width:60%;
-    text-align: center
+
+
+/* contacts */
+.slack{
+    display: flex;
+    flex-direction: row;
+    
+    font-size: 15px;
+  }
+  .gmail{
+    display: flex;
+    flex-direction: row;
+  }
+  .phone{
+      display: flex;
+      flex-direction: row;
+  }
+  .gmail p{
+    margin-top: 0.1em;
+  }
+  .slack p{
+    margin-top: 0.1em;
+  }
+  .phone p{
+    margin-top: 0.1em; 
+  }
+  /* Responsiveness */
+  #responsive{
+    width: 70%;
+    margin: auto;
 }
-.project2{
-    margin:auto;
-    width:60%;
-    text-align: center
-}
-.project3{
-    margin:auto;
-    width:60%;
-    text-align: center
-}
-.project-text p {
-    margin:auto;
-    width:90%;
+  @media screen and (max-width: 600px) {
+    #responsive{
+        object-fit: cover;
+       
+    }
+    #responsive img{
+        width: 300px;
+        height: 250px;
+        /* text-align: center */
+                
+    }
+    #responsive p {
+        width: 270px;
+        text-align: left;
+        justify-content:space-evenly
+    }
+    .about-image{
+        width: 0px;
+    }
+    .flex{
+        display: flex;
+        flex-direction:column;
+        justify-content:space-evenly
+    }
+
 }
