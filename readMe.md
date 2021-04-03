@@ -1,7 +1,7 @@
 # Personal Portfolio
 This website entails all my profile information ,the projects  i  have done  my contacts and social media through which people can reach me and work together either as collaborator or service  provider or share ideas and impact in our society. Here is the [link](budds300.github.io/portfolio/) to the website.
 
-![Preview](Screenshot from 2021-04-03 14-02-43.png)
+![Screenshot](screenshot.png)
 ## Author
 * Tamminga Budds
 ## How To Access It
