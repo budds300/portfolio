@@ -110,6 +110,20 @@ span{
    #projects h1{
     text-align:center
 }
+.project-text a[type=button] {
+    background-color: #00B2ff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    margin:auto;
+    position: relative;
+
+}
+.project-text a[type=button]:hover{
+    background-color:white;
+    color:#19D9fd ;
+}
 
 
 /* contacts */
