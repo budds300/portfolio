@@ -1,6 +1,7 @@
 /* body */
 body{
-scroll-behavior: smooth;
+scroll-snap-type: smooth;
+
 }
 /* background image */
 .first-background{
@@ -274,7 +275,7 @@ span{
         display: inline;
         margin-left: 0%;
         text-align: left;
-        font-size: 2px;
+        font-size: 10px;
         
 
         
