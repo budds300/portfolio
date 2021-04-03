@@ -259,9 +259,7 @@ span{
         width: 270px;
         font-size:20px;
         justify-content:space-evenly
-    
     }
-    
     .text{
         width:100%;
     }
@@ -270,15 +268,14 @@ span{
         flex-direction:column;
         justify-content:space-evenly
     }
-    header{
+    nav{
         width: 50%;
+        margin: auto;
         display: inline;
         margin-left: 0%;
         text-align: left;
-        font-size: 10px;
-        
-
-        
+        font-size: 0px;
+        z-index:2; 
     }
     .first-background{
         min-height: 18.999rem;
@@ -288,6 +285,10 @@ span{
         color: white;
         padding: 1.3em 0 0 0 ;
         font-size:  20px;
+    }
+    .project-image{
+        padding-top: 14px;
+    }
     }
 
 }
