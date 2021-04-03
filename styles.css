@@ -268,15 +268,10 @@ span{
         flex-direction:column;
         justify-content:space-evenly
     }
-    nav{
-        width: 50%;
-        margin: auto;
-        display: inline;
-        margin-left: 0%;
-        text-align: left;
-        font-size: 0px;
-        z-index:2; 
-    }
+  
+        
+         
+    
     .first-background{
         min-height: 18.999rem;
         
@@ -289,6 +284,6 @@ span{
     .project-image{
         padding-top: 14px;
     }
-    }
+    
 
 }
