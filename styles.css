@@ -1,3 +1,7 @@
+/* body */
+body{
+scroll-behavior: smooth;
+}
 /* background image */
 .first-background{
     background-image: url("images/safar-safarov-MSN8TFhJ0is-unsplash.jpg");
@@ -29,7 +33,7 @@ nav {
     z-index: 2;
     opacity: 100%;
     position: relative;
-    text-align: right; 
+    text-align: center; 
         
 }
 nav>ul>li{
@@ -58,15 +62,19 @@ nav>ul>li>a:hover {
     width: 70%;
     margin:auto;
 }
+span{
+    color:#19D9fd   
+}
  #landing h1{
         color: white;
         padding: 21rem 0 0 0 ;
+        font-size:40px;
  }
- #landing input[type=button]:hover{
+ #landing a[type=button]:hover{
         background-color:white;
         color:#19D9fd ;
  }
-#landing input[type=button] {
+#landing a[type=button] {
         background-color: #00B2ff;
         color: white;
         padding: 12px 20px;
@@ -106,8 +114,9 @@ nav>ul>li>a:hover {
 
 /* contacts */
 #contacts{
-    background-color: #00B2ff;
+    background-color:#242F40;
     text-align:center;
+    color:white;
 }
 #contacts h2{
     
@@ -151,55 +160,13 @@ nav>ul>li>a:hover {
     width: 70%;
     margin: auto;
 }
-  @media (max-width: 600px) {
-    #responsive{
-        object-fit: cover;
-        width: 100%;
-       
-    }
-    #responsive img{
-        width: 290px;
-        height: 250px;
-        text-align: center
-                
-    }
-    #about img{
-        width: 250px;
-    }
-    #responsive p {
-        width: 270px;
-        text-align: left;
-        justify-content:space-evenly
+#responsive p,ul {
     
-    }
-    .text{
-        width:100%;
-    }
-    .flex{
-        display: flex;
-        flex-direction:column;
-        justify-content:space-evenly
-    }
-    nav{
-        width: 108.57%;
-        margin-left: 0%;
-        text-align: left;
-        margin:auto;
-        font-size: 11px;
-
-        
-    }
-    .first-background{
-        min-height: 18.999rem;
-        
-    }
-    #landing h1{
-        color: white;
-        padding: 1.3em 0 0 0 ;
-    }
+    font-size:20px;
+    justify-content:space-evenly
 
 }
-/* @media screen and (max-width: 1024px) {
+@media (max-width: 900px) {
     #responsive{
         object-fit: cover;
         width:70%;
@@ -246,7 +213,66 @@ nav>ul>li>a:hover {
     }
     #landing h1{
         color: white;
-        padding: 5em 0 0 0 ;
+        padding: 1.6em 0 0 0 ;
+    }
+    .contact{
+        font-size:20px;
+        display:flex;
+        flex-direction:column;
+        text-align:center;
+        justify-content:center;
     }
 
-} */
+}
+
+  @media screen and (max-width: 400px) {
+    #responsive{
+        object-fit: cover;
+        width: 80%;
+       
+    }
+    #responsive img{
+        width: 290px;
+        height: 250px;
+        text-align: center
+                
+    }
+    #about img{
+        width: 250px;
+    }
+    #responsive p,ul {
+        width: 270px;
+        font-size:20px;
+        justify-content:space-evenly
+    
+    }
+    
+    .text{
+        width:100%;
+    }
+    .flex{
+        display: flex;
+        flex-direction:column;
+        justify-content:space-evenly
+    }
+    header{
+        width: 50%;
+        display: inline;
+        margin-left: 0%;
+        text-align: left;
+        font-size: 2px;
+        
+
+        
+    }
+    .first-background{
+        min-height: 18.999rem;
+        
+    }
+    #landing h1{
+        color: white;
+        padding: 1.3em 0 0 0 ;
+        font-size:  20px;
+    }
+
+}
